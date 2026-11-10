@@ -16,17 +16,17 @@ function Projects() {
       <h1 className="sectionTitle">Designs</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={SplitX}
-          link="https://www.figma.com/proto/HZKjOpdmtWzGGNN4Ypmu7s/SpitX-Mobile?node-id=83-535&node-type=canvas&viewport=358%2C313%2C0.37&t=ZQd5BxOmooznrUYM-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=104%3A368"
-          h3="SplitX"
-          p="Expense Splitting App"
-          />
-        <ProjectCard
           src={EDx}
           link="https://www.figma.com/proto/69CX6uC7Hi1UFnBghHdPnu/EDx?page-id=0%3A1&node-id=124-385&node-type=canvas&viewport=-562%2C73%2C0.14&t=0IPUfR7ROlInN9N3-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=124%3A385"
           h3="EDx"
           p="E-learning Platform"
         />
+        <ProjectCard
+          src={SplitX}
+          link="https://www.figma.com/proto/HZKjOpdmtWzGGNN4Ypmu7s/SpitX-Mobile?node-id=83-535&node-type=canvas&viewport=358%2C313%2C0.37&t=ZQd5BxOmooznrUYM-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=104%3A368"
+          h3="SplitX"
+          p="Expense Splitting App"
+          />
         <ProjectCard
           src={CoinFlip}
           link="https://www.figma.com/proto/7HupongMZHrTIyc0LWB2nT/CoinFlip?page-id=2%3A27&node-id=4-897&node-type=canvas&viewport=-1599%2C309%2C0.74&t=KYzgehPk9jIuf1OW-1&scaling=scale-down&content-scaling=fixed"
@@ -53,13 +53,13 @@ function Projects() {
           />
         <ProjectCard
           src={Portfolio1}
-          link="https://uzaifansari.github.io/"
+          link="https://uzaifansari.github.io/portfolio1"
           h3="Portfolio"
           p="HTML, CSS & JavaScript"
           />
         <ProjectCard
           src={Portfolio2}
-          link="https://uzaifansari.github.io/DesignsPortfolio"
+          link="https://uzaifansari.github.io/"
           h3="Portfolio"
           p="ReactJS"
         />
@@ -68,6 +68,12 @@ function Projects() {
           link="https://github.com/uzaifansari/Book-Recommendation-System"
           h3="Book Recommender"
           p="Python, HTML & CSS"
+          />
+        <ProjectCard
+          src={ComingSoon}
+          link="https://github.com/uzaifansari/Book-Recommendation-System"
+          h3="S*****ble"
+          p="ReactJS & NodeJS"
           />
         
         
