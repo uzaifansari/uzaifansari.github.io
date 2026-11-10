@@ -13,6 +13,7 @@ dist-ssr
 *.local
 
 Readme.txt
+desktop.ini
 
 # Editor directories and files
 .vscode/*
